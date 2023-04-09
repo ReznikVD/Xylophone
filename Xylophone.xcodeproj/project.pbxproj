@@ -11,9 +11,9 @@
 		7A738D5E29E2B06700A8CBAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A738D5D29E2B06700A8CBAA /* SceneDelegate.swift */; };
 		7A738D6029E2B06700A8CBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A738D5F29E2B06700A8CBAA /* ViewController.swift */; };
 		7A738D6829E2B06800A8CBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A738D6629E2B06800A8CBAA /* LaunchScreen.storyboard */; };
-		7A738D7129E2B08500A8CBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A738D6F29E2B08500A8CBAA /* Main.storyboard */; };
 		7A738D7329E2B0C300A8CBAA /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 7A738D7229E2B0C300A8CBAA /* Sounds */; };
 		7A738D7529E2B0FD00A8CBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A738D7429E2B0FD00A8CBAA /* Assets.xcassets */; };
+		7A738D7729E2B90600A8CBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A738D7629E2B90600A8CBAA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		7A738D5F29E2B06700A8CBAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A738D6729E2B06800A8CBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A738D6929E2B06800A8CBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A738D7029E2B08500A8CBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/Xylophone-iOS13-master/Xylophone/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		7A738D7229E2B0C300A8CBAA /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../../../.Trash/Xylophone/Xylophone/Sounds; sourceTree = "<group>"; };
+		7A738D7229E2B0C300A8CBAA /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		7A738D7429E2B0FD00A8CBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Xylophone/Xylophone/Assets.xcassets; sourceTree = "<group>"; };
+		7A738D7629E2B90600A8CBAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				7A738D5B29E2B06700A8CBAA /* AppDelegate.swift */,
 				7A738D5D29E2B06700A8CBAA /* SceneDelegate.swift */,
 				7A738D5F29E2B06700A8CBAA /* ViewController.swift */,
-				7A738D6F29E2B08500A8CBAA /* Main.storyboard */,
+				7A738D7629E2B90600A8CBAA /* Main.storyboard */,
 				7A738D7429E2B0FD00A8CBAA /* Assets.xcassets */,
 				7A738D6629E2B06800A8CBAA /* LaunchScreen.storyboard */,
 				7A738D6929E2B06800A8CBAA /* Info.plist */,
@@ -129,9 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A738D6829E2B06800A8CBAA /* LaunchScreen.storyboard in Resources */,
+				7A738D7729E2B90600A8CBAA /* Main.storyboard in Resources */,
 				7A738D7329E2B0C300A8CBAA /* Sounds in Resources */,
 				7A738D7529E2B0FD00A8CBAA /* Assets.xcassets in Resources */,
-				7A738D7129E2B08500A8CBAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,14 +157,6 @@
 				7A738D6729E2B06800A8CBAA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		7A738D6F29E2B08500A8CBAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A738D7029E2B08500A8CBAA /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
